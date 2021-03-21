@@ -113,6 +113,6 @@ The vehicle is able to successfuly navigate the track more than once. The simula
 ## Notes
 
 1. I have skipped the classification problem for the traffic lights and directly use the traffic light state within [tl_detector.py](https://github.com/prasadshingne/CarND-Capstone_Workspace/blob/654164699852bc41d545ae7476ef599c98d0eec0/ros/src/tl_detector/tl_detector.py#L105). I plan to update this project to use a pretrained classifier such as YOLO for traffic light detection in a manner similar to [this](https://github.com/yogeshgajjar/bosch-traffic-sign-detection-YOLOv3).
-2. It is important to run the simulation in the Fast/Fastest setting. For a couple of runs I noticed that the simulation was pretty laggy and that caused the vehicle to diverge from the waypoints. 
+2. It is important to run the simulation in the Fast/Fastest setting. For a couple of runs when I had the simulator quality better, I noticed that the simulation was pretty laggy and that caused the vehicle to diverge from the waypoints. 
 
 
