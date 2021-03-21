@@ -1,10 +1,10 @@
 This is my submission for the final project of the Udacity Self-Driving Car Nanodegree: Programming a Real Self-Driving Car. For more information about the project, see the project introduction [here](https://classroom.udacity.com/nanodegrees/nd013/parts/6047fe34-d93c-4f50-8336-b70ef10cb4b2/modules/e1a23b06-329a-4684-a717-ad476f0d8dff/lessons/462c933d-9f24-42d3-8bdc-a08a5fc866e4/concepts/5ab4b122-83e6-436d-850f-9f4d26627fd9).
 
-### Setup
+## Setup
 
-For this project, I took the easy way out and used the Udacity workspace with all the necessary installations and dependencies available. I would like to get this running on my system (Ubuntu 20.04 with ROS Noetic) in the near future.
+For this project, I used the Udacity workspace with all the necessary installations and dependencies available. I would like to get this running on my system (Ubuntu 20.04 with ROS Noetic) in the near future.
 
-Following are couple of options for installations to use.
+Following are couple of options for installations to use --
 
 ### Native Installation
 
@@ -36,10 +36,10 @@ Run the docker file
 docker run -p 4567:4567 -v $PWD:/capstone -v /tmp/log:/root/.ros/ --rm -it capstone
 ```
 
-### Port Forwarding
+## Port Forwarding
 To set up port forwarding, please refer to the [instructions from term 2](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/f758c44c-5e40-4e01-93b5-1a82aa4e044f/concepts/16cf4a78-4fc7-49e1-8621-3450ca938b77)
 
-### Usage
+## Usage
 
 1. Clone the project repository
 ```bash
@@ -59,4 +59,12 @@ source devel/setup.sh
 roslaunch launch/styx.launch
 ```
 4. Run the simulator
+
+## Project Overview
+
+
+
+
+
+
 
