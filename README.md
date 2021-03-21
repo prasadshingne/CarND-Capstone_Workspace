@@ -63,7 +63,9 @@ roslaunch launch/styx.launch
 ## Project Overview
 
 
+This project uses ROS nodes to implement the core functionality of the autonomous vahicle system, including, perception, planning and control. The developed code is tested in a simulator with representative functionality. The below figure (from Udacity class material) shows the system architectire diagram with the ROS topics and nodes used in the code.
 
+<img src="https://github.com/prasadshingne/CarND-Capstone_Workspace/blob/main/output/sys_architecture.jpg"/>
 
 
 
