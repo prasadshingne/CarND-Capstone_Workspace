@@ -1,0 +1,6 @@
+*.py[cod]
+output_videos/
+build
+devel
+
+profile.tmp
